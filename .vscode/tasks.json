@@ -1,0 +1,16 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Generate Japan Trip PDF",
+			"type": "shell",
+			"command": "python",
+			"args": [
+				"japan_trip_pdf_generator.py"
+			],
+			"group": "build",
+			"isBackground": false,
+			"problemMatcher": []
+		}
+	]
+}
